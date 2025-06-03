@@ -39,9 +39,9 @@ cp -r vultr_docker_deployment/* .
 # Create environment file template
 echo "🔑 Creating environment template..."
 cat > .env << 'EOF'
-ALPACA_API_KEY=your_alpaca_api_key_here
-ALPACA_SECRET_KEY=your_alpaca_secret_key_here
-POLYGON_API_KEY=your_polygon_api_key_here
+ALPACA_API_KEY=PK9Q16F4102C0EHKWTH7
+ALPACA_SECRET_KEY=MtOnHbpd4yulydHVNjhkkNDcinHk1mDHfMrv6Rp6
+POLYGON_API_KEY=Gf0KFpPjoS5uw_fWp1Gy1iiw5G7waMbH
 ALPACA_BASE_URL=https://paper-api.alpaca.markets
 EOF
 
